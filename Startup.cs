@@ -26,6 +26,8 @@ namespace OrderManagement
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            //NOTE: HERE, YOU SHOULD REGISTER YOUR DEPENDENCIES...
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
